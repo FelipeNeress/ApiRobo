@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiRobo", "ApiRobo.csproj", "{7A038C99-7C8A-4AFC-AD2E-D361C1F3F137}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiRobo.Domain", "..\ApiRobo.Domain\ApiRobo.Domain.csproj", "{409F3D2F-6545-4011-9CDC-573F763E303B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiRobo.Repositories", "..\ApiRobo.Repositories\ApiRobo.Repositories.csproj", "{E827F0A3-50F2-42AA-BCAC-CE8ADA602EAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiRobo.Service", "..\ApiRobo.Service\ApiRobo.Service.csproj", "{08E649C0-BD1A-4576-A244-90E7C3A6CAFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiRobo.Ioc", "..\ApiRobo.Ioc\ApiRobo.Ioc.csproj", "{2455EF96-B8E6-44B3-B624-BF1A2B329785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robo", "..\Robo\Robo.csproj", "{2F87F85A-53C3-4CB1-A93A-0200F8BA7DE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A038C99-7C8A-4AFC-AD2E-D361C1F3F137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A038C99-7C8A-4AFC-AD2E-D361C1F3F137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A038C99-7C8A-4AFC-AD2E-D361C1F3F137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A038C99-7C8A-4AFC-AD2E-D361C1F3F137}.Release|Any CPU.Build.0 = Release|Any CPU
+		{409F3D2F-6545-4011-9CDC-573F763E303B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409F3D2F-6545-4011-9CDC-573F763E303B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409F3D2F-6545-4011-9CDC-573F763E303B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409F3D2F-6545-4011-9CDC-573F763E303B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E827F0A3-50F2-42AA-BCAC-CE8ADA602EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E827F0A3-50F2-42AA-BCAC-CE8ADA602EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E827F0A3-50F2-42AA-BCAC-CE8ADA602EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E827F0A3-50F2-42AA-BCAC-CE8ADA602EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E649C0-BD1A-4576-A244-90E7C3A6CAFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E649C0-BD1A-4576-A244-90E7C3A6CAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E649C0-BD1A-4576-A244-90E7C3A6CAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E649C0-BD1A-4576-A244-90E7C3A6CAFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2455EF96-B8E6-44B3-B624-BF1A2B329785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2455EF96-B8E6-44B3-B624-BF1A2B329785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2455EF96-B8E6-44B3-B624-BF1A2B329785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2455EF96-B8E6-44B3-B624-BF1A2B329785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F87F85A-53C3-4CB1-A93A-0200F8BA7DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F87F85A-53C3-4CB1-A93A-0200F8BA7DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F87F85A-53C3-4CB1-A93A-0200F8BA7DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F87F85A-53C3-4CB1-A93A-0200F8BA7DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F6DDDE3-972E-48B3-89CC-C57A575F3B2F}
+	EndGlobalSection
+EndGlobal

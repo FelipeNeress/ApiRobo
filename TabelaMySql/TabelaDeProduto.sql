@@ -1,0 +1,7 @@
+CREATE TABLE Produtos(
+	Titulo VARCHAR(150) NOT NULL,
+    Preco DECIMAL(10,2) NOT NULL,
+    PrecoAntigo DECIMAL(10,2) NULL,
+    Link VARCHAR(250) NOT NULL,
+    DataBusca DATE NOT NULL
+);

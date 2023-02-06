@@ -1,0 +1,18 @@
+.text-primary {
+    color: #fff !important;
+    background-color: #007bff !important;
+  }
+  
+  .text-danger {
+    color: #fff !important;
+    background-color: #dc3545 !important;
+  }
+  
+  .text-success {
+    color: #fff !important;
+    background-color: #28a745 !important;
+  }
+
+  body {
+background-image: url(FundoMario2.jpg);
+  }
